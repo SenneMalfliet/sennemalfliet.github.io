@@ -10,7 +10,6 @@ body {
 }
 
 #blob {
-    background-color: blue;
     height: 300px;
     aspect-ratio: 1;
     position: fixed;
@@ -20,25 +19,27 @@ body {
     translate: -50% -50%;
     background: linear-gradient(
         to right,
-        rgb(143, 96, 236),
+        rgb(231, 9, 9),
         rgb(218, 178, 3)
     );
-    animation: rotate 20s linear infinite;
-    filter: blur(400px);
+    animation: rotate 10s linear infinite;
+    filter: blur(300px);
     z-index: -1;
 }
 
 @keyframes rotate {
         from {
             rotate: 0deg;
+            scale: 1 1;
         }
-        
+
         50% {
-            scale: 1 1.25;
+            scale: 1.15 1.15;
         }
 
         to {
             rotate: 359deg;
+            scale: 1 1;
         }
     }
     
