@@ -8,7 +8,7 @@ document.body.onpointermove = event => {
 		left: `${clientX}px`,
 		top: `${clientY}px`
 		}, {
-		duration: 3000,
+		duration: 2000,
 		fill: "forwards"
 	});
 }
